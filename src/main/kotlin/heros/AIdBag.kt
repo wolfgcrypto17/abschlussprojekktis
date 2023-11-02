@@ -5,6 +5,7 @@ import heros.BaseHero
 class AidBag {
     private var usedBag = false
     private var usedVitamin = false
+    // ich hier was vergesseb
     fun useBag(hero: BaseHero) {
         if (!usedBag) {
             // Implement the behavior of using the bag here

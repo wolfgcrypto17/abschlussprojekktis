@@ -8,7 +8,6 @@ class AidBag {
     // ich hier was vergesseb
     fun useBag(hero: BaseHero) {
         if (!usedBag) {
-            // Implement the behavior of using the bag here
             hero.restoreHealth()
             usedBag = true
         }
